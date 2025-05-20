@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - rregerehr Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+        }
+        nav a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .about {
+            background-color: #e0f7fa;
+            text-align: justify;
+        }
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            text-align: center;
+        }
+        .services-grid div {
+            flex: 1 1 calc(33% - 40px);
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        .testimonials {
+            background-color: #fff3e0;
+            text-align: center;
+        }
+        .contact {
+            background-color: #b2ebf2;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 3px 3px 15px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 768px) {
+            .services-grid div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to rregerehr Services</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section class="hero">
+            <h2>Discover the Art of Dining</h2>
+            <p>Where every meal is a masterpiece.</p>
+        </section>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>rregerehr is more than a restaurant; it is an experience crafted to delight the senses. Our mission is to bring people together over plates of culinary art that are as visually stunning as they are delicious. We aspire to create a communal space where guests can savor the joys of fine dining.</p>
+            <p>Our clientele includes both locals and travelers who seek to explore new flavors and enjoy a unique dining atmosphere. Our commitment to quality and innovation drives us to continuously refine our offerings and exceed our guests' expectations.</p>
+            <ul>
+                <li>Exclusive seasonal menus</li>
+                <li>Personalized dining experiences</li>
+                <li>Exceptional hospitality</li>
+                <li>Signature cocktails</li>
+                <li>Private dining rooms</li>
+            </ul>
+        </section>
+        <section class="services-grid">
+            <h2>What We Offer</h2>
+            <div>
+                <i class="fas fa-leaf fa-2x"></i>
+                <h3>Farm-to-Table</h3>
+                <p>Enjoy meals made with the freshest local ingredients.</p>
+            </div>
+            <div>
+                <i class="fas fa-glass-cheers fa-2x"></i>
+                <h3>Celebration Catering</h3>
+                <p>Let us add flavor to your special occasions with our catering services.</p>
+            </div>
+            <div>
+                <i class="fas fa-music fa-2x"></i>
+                <h3>Live Music Nights</h3>
+                <p>Join us for evenings filled with music and joy.</p>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Guests Say</h2>
+            <blockquote>"An exquisite dining experience that tantalizes the taste buds."</blockquote>
+            <blockquote>"The perfect blend of ambiance and flavor, a must-visit restaurant."</blockquote>
+        </section>
+        <section class="contact">
+            <h2>Get in Touch</h2>
+            <p>Book your table today by calling (123) 456-7890 or emailing info@rregerehr.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>Connect with us on social media</p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </footer>
+</body>
+</html>
